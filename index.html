@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrivikraman Madhavan | CS Student, AI & Cybersecurity</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        cardbg: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-darkbg dark:text-slate-100 transition-colors duration-300 font-sans">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-darkbg/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#about" class="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
+                Thrivikraman Madhavan
+            </a>
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-500 transition-colors">About</a>
+                <a href="#skills" class="hover:text-blue-500 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-blue-500 transition-colors">Projects</a>
+                <a href="#experience" class="hover:text-blue-500 transition-colors">Experience</a>
+                <a href="#certifications" class="hover:text-blue-500 transition-colors">Certifications</a>
+                <a href="#contact" class="hover:text-blue-500 transition-colors">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <button id="theme-toggle" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:ring-2 hover:ring-blue-500 transition-all">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:inline"></i>
+                </button>
+                <a href="mailto:tvkmusic07@gmail.com" class="hidden sm:inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors">
+                    Let's Connect
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-32 pb-20 md:pt-40 md:pb-32 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block mb-4 px-3 py-1 text-xs font-semibold tracking-wider text-blue-600 dark:text-blue-400 uppercase bg-blue-100 dark:bg-blue-950/55 rounded-full">
+                University of Johannesburg • BSc IT (Computer Science and Informatics)
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                Securing AI & Building <span class="bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">Intelligent Systems</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Computer Science student specializing in AI security. Built and deployed LLM guardrail systems defending against prompt injection, jailbreaks, and data exfiltration, backed by 13 security certifications.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#projects" class="px-6 py-3 font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg shadow-blue-500/20 transition-all">
+                    View Projects
+                </a>
+                <a href="https://github.com/Thrivi17" target="_blank" class="px-6 py-3 font-medium border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-all flex items-center gap-2">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://linkedin.com/in/thrivikraman-madhavan-b9a022299" target="_blank" class="px-6 py-3 font-medium border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-all flex items-center gap-2">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="py-20 bg-slate-100/50 dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Technical Expertise</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                    <div class="w-10 h-10 mb-4 flex items-center justify-center rounded-lg bg-blue-500/10 text-blue-500">
+                        <i class="fa-solid fa-code text-lg"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Languages</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">Python, SQL, KQL, JavaScript, Java, C#, C, C++, VBA, HTML, CSS</p>
+                </div>
+                <div class="p-6 bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                    <div class="w-10 h-10 mb-4 flex items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-500">
+                        <i class="fa-solid fa-brain text-lg"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI / ML & Security</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">Machine learning pipelines, sentence-transformers, LLM security (OWASP Top 10 for LLMs), prompt injection & jailbreak defense.</p>
+                </div>
+                <div class="p-6 bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                    <div class="w-10 h-10 mb-4 flex items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-500">
+                        <i class="fa-solid fa-server text-lg"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Backend & Tools</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">FastAPI, Node.js, REST APIs, Streamlit, API key auth, containerization, cloud deployment, GitHub.</p>
+                </div>
+                <div class="p-6 bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                    <div class="w-10 h-10 mb-4 flex items-center justify-center rounded-lg bg-amber-500/10 text-amber-500">
+                        <i class="fa-solid fa-shield-halved text-lg"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Security & Ops</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">STIX 2.1, Attack Flow modeling, adversary emulation, detection engineering, Active Directory / Azure AD, Linux.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4 text-center">Featured Projects</h2>
+            <p class="text-slate-600 dark:text-slate-400 text-center mb-12 max-w-xl mx-auto">Building robust open-source security utilities, ML pipelines, and secure AI systems.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-bold text-xl">LLM Security Guardrail</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-full">Jul 2026</span>
+                        </div>
+                        <p class="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                            Engineered a dual-tier LLM security microservice (FastAPI + Streamlit) targeting the OWASP Top 10 for LLMs combining regex heuristics with sentence-transformers vector matching.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 flex flex-wrap items-center gap-4 text-sm font-medium text-blue-500">
+                        <a href="https://github.com/Thrivi17/llm-security-guardrail-project" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://llm-security-guardrail-project-vikriosappiwjetqygfxart.streamlit.app/" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-solid fa-globe"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-bold text-xl">Secure AI Agent</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-full">Jul-Aug 2026</span>
+                        </div>
+                        <p class="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                            Multi-turn AI chat app with dual-tier guardrails filtering prompt injections and data leaks, featuring Streamlit UI and FastAPI backend deployed live on cloud infrastructure.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 flex flex-wrap items-center gap-4 text-sm font-medium text-blue-500">
+                        <a href="https://github.com/Thrivi17/secure-ai-agent" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://secure-ai-agent.onrender.com/" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-solid fa-globe"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-bold text-xl">SEO Opportunity Scoring</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-full">FlyRank AI</span>
+                        </div>
+                        <p class="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                            ML pipeline on Google Search Console data (DuckDB, Parquet) training a Random Forest Regressor to predict clicks and output prioritized optimization actions.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 flex flex-wrap items-center gap-4 text-sm font-medium text-blue-500">
+                        <a href="https://github.com/Thrivi17/Thrivi_Flyrank" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://thrivi17.github.io/Thrivi_Flyrank/research_Paper/ResearchPaper.html" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-solid fa-file-lines"></i> Research Paper</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-bold text-xl">Opalera E-Commerce</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-full">Team Project</span>
+                        </div>
+                        <p class="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                            Node.js backend and REST API for a jewellery platform with scrypt-hashed accounts, role-based access control, secure sessions, shopping carts, and a manager console.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 flex items-center space-x-4 text-sm font-medium text-blue-500">
+                        <a href="https://github.com/Thrivi17/Opalera" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>
+						<a href="https://opalera.onrender.com/pages/jewellery_Html.html" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-solid fa-file-lines"></i> Website Link</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-bold text-xl">Adversary Attack Flow</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-full">STIX 2.1</span>
+                        </div>
+                        <p class="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                            Designed machine-readable multi-stage adversary attack flow (.afb) in Attack Flow Builder, mapping TTP sequencing and telemetry dependencies for detection engineering.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-6 pt-0 flex items-center space-x-4 text-sm font-medium text-blue-500">
+                        <a href="https://github.com/Thrivi17/Adversary-emulation-portfolio" target="_blank" class="hover:underline flex items-center gap-1"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="py-20 bg-slate-100/50 dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Experience & Education</h2>
+            
+            <div class="space-y-8">
+                <!-- Exp Item -->
+                <div class="p-6 bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="font-bold text-lg">Machine Learning Intern</h3>
+                            <p class="text-sm text-blue-500 font-medium">FlyRank AI (Remote)</p>
+                        </div>
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-full mt-2 sm:mt-0">Jul - Sep 2026</span>
+                    </div>
+                    <ul class="list-disc list-inside text-sm text-slate-600 dark:text-slate-300 space-y-2">
+                        <li>Authored a capstone research paper on predicting SEO opportunity scores, analyzing non-linear position-to-CTR relationships.</li>
+                        <li>Used client-grouped cross-validation (GroupKFold) to prevent data leakage and designed human-review safeguards for flagged pages.</li>
+                    </ul>
+                </div>
+
+                <!-- Education Item -->
+                <div class="p-6 bg-white dark:bg-cardbg rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="font-bold text-lg">University of Johannesburg</h3>
+                            <p class="text-sm text-blue-500 font-medium">BSc IT (Computer Science and Informatics), 2nd Year</p>
+                        </div>
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 rounded-full mt-2 sm:mt-0">Feb 2025 - Dec 2027 (exp.)</span>
+                    </div>
+                    <p class="text-sm text-slate-600 dark:text-slate-300">
+                        Focusing on artificial intelligence, software design patterns, advanced algorithms, and data security architectures.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Certifications & Badges</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 bg-white dark:bg-cardbg rounded-lg border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+                    <i class="fa-solid fa-certificate text-blue-500 mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-sm">Security & SOC</h4>
+                        <p class="text-xs text-slate-600 dark:text-slate-400">Security Analyst I (KC7 Foundation); SOC Member (LetsDefend); Cybersecurity Defense Analyst Career Path (Cisco); Introduction to Cybersecurity; Fortinet NSE 3</p>
+                    </div>
+                </div>
+                <div class="p-4 bg-white dark:bg-cardbg rounded-lg border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+                    <i class="fa-solid fa-shield-virus text-indigo-500 mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-sm">AI Security</h4>
+                        <p class="text-xs text-slate-600 dark:text-slate-400">Certified LLM Security Expert (Red Team Leaders); AI Security and Governance (Securiti AI)</p>
+                    </div>
+                </div>
+                <div class="p-4 bg-white dark:bg-cardbg rounded-lg border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+                    <i class="fa-solid fa-network-wired text-emerald-500 mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-sm">Adversary Emulation</h4>
+                        <p class="text-xs text-slate-600 dark:text-slate-400">menuPass Emulation Plan Execution (AttackIQ); Attack Flows v2: How to Model and Sequence Attacks; Purple Team - Active Directory and AzureAD v1</p>
+                    </div>
+                </div>
+                <div class="p-4 bg-white dark:bg-cardbg rounded-lg border border-slate-200 dark:border-slate-700 flex items-start gap-3">
+                    <i class="fa-solid fa-server text-amber-500 mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-sm">Systems & Networking</h4>
+                        <p class="text-xs text-slate-600 dark:text-slate-400">Microsoft Applied Skills: Administer Active Directory Domain Services; Linux Unhatched (Cisco); Networking Basics (Cisco)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="py-12 bg-slate-900 text-slate-400 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+            <div>
+                <p class="text-white font-bold text-lg">Thrivikraman Madhavan</p>
+                <p class="text-sm">Johannesburg, South Africa • tvkmusic07@gmail.com • +27 60 436 5772</p>
+            </div>
+            <div class="flex space-x-6 text-xl">
+                <a href="https://github.com/Thrivi17" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/thrivikraman-madhavan-b9a022299" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:tvkmusic07@gmail.com" class="hover:text-white transition-colors"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script for Dark Mode Toggle -->
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        themeToggle.addEventListener('click', () => {
+            if (html.classList.contains('dark')) {
+                html.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                html.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    </script>
+</body>
+</html>
