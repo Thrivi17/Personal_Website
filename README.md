@@ -2,7 +2,7 @@
 
 Welcome to the source code for my personal portfolio website! Built with modern web standards to showcase my projects, technical skills, certifications, and experience in AI and Cybersecurity.
 
-🔗 **Live Website:** [https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/](https://thrivi17.github.io/Personal_Website/)
+🔗 **Live Website:** [Personal Website](https://thrivi17.github.io/Personal_Website/)
 
 ## Tech Stack
 * **HTML5**
